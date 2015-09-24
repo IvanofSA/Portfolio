@@ -1,9 +1,6 @@
+html{
+	min-width: 992px;
+}
 body{
-	background: black;
-}
-h1{
-	color: green;
-}
-p{
-	color: blue;
+background: url(../img/background.png) no-repeat;
 }

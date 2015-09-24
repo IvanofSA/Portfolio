@@ -1,12 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<title>Сайт портфолио</title>
-</head>
-<body>
-	<h1>Здесь будет сайт</h1>
-</body>
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Вёрстка #1</title>
+        <!-- SEO -->
+        <meta name="description" content="Портфолио">
+        <meta name="keywords" content="Портфолио, фронтэнд, сss, js, html">
+        <meta name="author" content="Иванов Сергей">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <!-- Vendor CSS -->
+        <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+        <!-- Font CSS -->
+        <link rel="stylesheet" href="">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Modernizr -->
+        <script></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>
+       <![endif] -->
+<div class="wrapper">
+  <div class="main-container">
+	<header class="page-header">
+			<div class="container-big">
+				<a href="" class="header-log-link">
+					<img src="img/logo.png" alt="logo" class="logo-img">
+					<span class="header-logo-text">Сайт портфолио</span>
+				</a>
+				<ul class="socials">
+					<li class="socials-item">
+						<a href="https://ru-ru.facebook.com" target="_blank" class="socails-link fb">https://ru-ru.facebook.com
+						</a>
+					</li>
+					<li class="socials-item">
+						<a href="http://vk.com/iposhelty " target="_blank" class="socails-link vk">http://vk.com/iposhelty
+						</a>
+					</li>
+					<li class="socials-item">
+						<a href="https://twitter.com/" target="_blank"  class="socails-link tw">https://twitter.com/
+						</a>
+					</li>
+					<li class="socials-item">
+						<a href="https://github.com/IvanofSA/" target="_blank"  class="socails-link gh">https://github.com/IvanofSA/
+						</a>
+					</li>
+				</ul>
+			</div>
+	</header>
+	<div class="container">
+		<!-- Левая колонка -->
+		<aside class="sidebar">
+			<nav class="navigation">
+				<ul class="navigation-list current">
+					<li class="navigation-item">
+						<a href="" class="navigation-link about">JОбо мне</a>
+					</li>
+					<li class="navigation-item">
+						<a href=""class="navigation-link my-work">Мои работы</a>
+					</li>
+					<li class="navigation-item">
+						<a href=""class="navigation-link tell-me">Связаться со мной</a>
+					</li>
+				</ul>				
+			</nav>
+		
+			<address class="contacts">
+				<div class="contacts-header">
+					<span class="header-contacts-text">
+					</span>
+				</div>
+					<ul class="contacts-list">
+						<li class="contacts-item contacts-item-mail ">
+							<a href="mailto:poshelya@gmail.com" class="contacts-link">
+								<span class="contacts-text">
+									poshelya@gmail.com
+								</span>
+							</a>
+						</li>
+						<li class="contacts-item contacts-item-phone">
+							<a href="tel:+79132213222" class="contacts-link">
+								<span class="contacts-text">
+									+79132213222
+								</span>
+							</a>
+						</li>
+						<li class="contacts-item contacts-item-skype">
+							<a href="skype:tapo4ek51?chat" class="contacts-link">
+								<span class="contacts-text">
+									tapo4ek51
+								</span>
+							</a>
+						</li>
+					</ul>
+			</address>
+		</aside>
+		<div class="variable-content">
+			<!-- правая колонка -->
+			<section class="aboutbox">
+				<h2 class="aboutbox-header">Основная информация</h2>
+				<div class="aboutbox-body clearfix">
+				  <div class="image-wrap">	
+					<div class="avatar-box"><img src="" alt="Photo" class="avatar"></div>
+				  </div>
+				<div class="worksheet-wrap">
+					<ul class="worksheet-list">
+						<li class="worksheet-item clearfix">
+							<div class="worksheet-what"></div>Сергей
+							<div class="worksheet-info"></div>Иванов
+						</li>
+						<li class="worksheet-item clearfix">
+							<div class="worksheet-what"></div>Сергей
+							<div class="worksheet-info"></div>Иванов
+						</li>
+						<li class="worksheet-item clearfix">
+							<div class="worksheet-what"></div>Сергей
+							<div class="worksheet-info"></div>Иванов
+						</li>
+						<li class="worksheet-item clearfix">
+							<div class="worksheet-what"></div>Сергей
+							<div class="worksheet-info"></div>Иванов
+						</li>
+						<div class="worksheet-item clearfix">
+							<div class="worksheet-what"></div>
+							<div class="worksheet-info skills"></div>
+								<ul class="skills-list">
+									<li class="skills-item">Php</li>
+									<li class="skills-item">Php</li>
+									<li class="skills-item">Php</li>
+									<li class="skills-item">Php</li>
+								</ul>
+							</div>
+						</div>
+					</ul>
+				  </div>
+				</div>
+			</section>
+			<section class="aboutbox">
+				<<h2 class="aboutbox-header">Опыт работы</h2>
+				<div class="aboutbox-body clearfix">
+				 	<ul class="aboutbox-list">
+				 		<li class="aboutbox-item icon-college">
+				 			<div class="where"></div>
+				 			<div class="period"></div>
+				 		</li>
+				 		<li class="aboutbox-item icon-course">
+				 			<div class="where"></div>
+				 			<div class="period"></div>
+				 		</li>
+				 	</ul>
+				</div>
+				</div>
+			</section>
+			<section class="aboutbox">
+				<h2 class="aboutbox-header">Образование</h2>
+				<div class="aboutbox-body clearfix">
+				 	<ul class="aboutbox-list">
+				 		<li class="aboutbox-item icon-college">
+				 			<div class="where"></div>
+				 			<div class="period"></div>
+				 		</li>
+				 		<li class="aboutbox-item icon-course">
+				 			<div class="where"></div>
+				 			<div class="period"></div>
+				 		</li>
+				 	</ul>
+				</div>
+			</section>
+
+  </div>
+</div>
+<!-- Footer -->
+	<footer class="page-footer">
+		<div class="container">
+			<div class="lock"><a href="/login.html" class="lock-inner">Войти</a></div>
+			<div class="copyright">2015, Это мой сайт, пожалуйста, не копируйте и не воруйте его.</div>
+		</div>
+	</footer>
+        <!-- Vendor JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>
+        <!-- JS -->
+        <script src="js/common.js"></script>
+    </body>
 </html>
+  
