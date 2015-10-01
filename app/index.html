@@ -3,22 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Вёрстка #1</title>
+        <title>Сайт портфолио</title>
         <!-- SEO -->
         <meta name="description" content="Портфолио">
         <meta name="keywords" content="Портфолио, фронтэнд, сss, js, html">
         <meta name="author" content="Иванов Сергей">
         <!-- favicon -->
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
         <!-- Vendor CSS -->
         <link href="bower/normalize-css/normalize.css" rel="stylesheet">
         <!-- Font CSS -->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
         <link rel="stylesheet" href="css/main.css">
-        <!-- Modernizr -->
-        <script></script>
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/variable.css">
+       
+      <!--[if lte IE 8]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -34,31 +40,31 @@
 				</a>
 				<ul class="socials">
 					<li class="socials-item">
-						<a href="https://ru-ru.facebook.com" target="_blank" class="socails-link fb">https://ru-ru.facebook.com
+						<a href="https://ru-ru.facebook.com" target="_blank" class="socials-link fb">https://ru-ru.facebook.com
 						</a>
 					</li>
 					<li class="socials-item">
-						<a href="http://vk.com/iposhelty " target="_blank" class="socails-link vk">http://vk.com/iposhelty
+						<a href="http://vk.com/iposhelty " target="_blank" class="socials-link vk">http://vk.com/iposhelty
 						</a>
 					</li>
 					<li class="socials-item">
-						<a href="https://twitter.com/" target="_blank"  class="socails-link tw">https://twitter.com/
+						<a href="https://twitter.com/" target="_blank"  class="socials-link tw">https://twitter.com/
 						</a>
 					</li>
 					<li class="socials-item">
-						<a href="https://github.com/IvanofSA/" target="_blank"  class="socails-link gh">https://github.com/IvanofSA/
+						<a href="https://github.com/IvanofSA/" target="_blank"  class="socials-link gh">https://github.com/IvanofSA/
 						</a>
 					</li>
 				</ul>
 			</div>
 	</header>
-	<div class="container">
-		<!-- Левая колонка -->
+	<div class="container clearfix">
+	<!-- 	 Левая колонка  -->
 		<aside class="sidebar">
 			<nav class="navigation">
-				<ul class="navigation-list current">
-					<li class="navigation-item">
-						<a href="" class="navigation-link about">JОбо мне</a>
+				<ul class="navigation-list ">
+					<li class="navigation-item current">
+						<a href="" class="navigation-link about">Обо мне</a>
 					</li>
 					<li class="navigation-item">
 						<a href=""class="navigation-link my-work">Мои работы</a>
@@ -71,26 +77,26 @@
 		
 			<address class="contacts">
 				<div class="contacts-header">
-					<span class="header-contacts-text">
+					<span class="header-contacts-text">Контакты
 					</span>
 				</div>
 					<ul class="contacts-list">
-						<li class="contacts-item contacts-item-mail ">
-							<a href="mailto:poshelya@gmail.com" class="contacts-link">
+						<li class="contacts-item  ">
+							<a href="mailto:poshelya@gmail.com" class="contacts-link mail">
 								<span class="contacts-text">
 									poshelya@gmail.com
 								</span>
 							</a>
 						</li>
 						<li class="contacts-item contacts-item-phone">
-							<a href="tel:+79132213222" class="contacts-link">
+							<a href="tel:+79132213222" class="contacts-link phone">
 								<span class="contacts-text">
 									+79132213222
 								</span>
 							</a>
 						</li>
 						<li class="contacts-item contacts-item-skype">
-							<a href="skype:tapo4ek51?chat" class="contacts-link">
+							<a href="skype:tapo4ek51?chat" class="contacts-link skype">
 								<span class="contacts-text">
 									tapo4ek51
 								</span>
@@ -100,92 +106,102 @@
 			</address>
 		</aside>
 		<div class="variable-content">
-			<!-- правая колонка -->
+			<!--  правая колонка --> 
 			<section class="aboutbox">
 				<h2 class="aboutbox-header">Основная информация</h2>
-				<div class="aboutbox-body clearfix">
+				<div class="aboutbox-body clearfix ">
 				  <div class="image-wrap">	
-					<div class="avatar-box"><img src="" alt="Photo" class="avatar"></div>
+					<div class="avatar-box"><img src="img/foto.jpg" alt="Photo" class="avatar"></div>
 				  </div>
 				<div class="worksheet-wrap">
 					<ul class="worksheet-list">
 						<li class="worksheet-item clearfix">
-							<div class="worksheet-what"></div>Сергей
-							<div class="worksheet-info"></div>Иванов
+							<div class="worksheet-what">Меня зовут:</div>
+							<div class="worksheet-info">Иванов Серегй Александрович</div>
 						</li>
 						<li class="worksheet-item clearfix">
-							<div class="worksheet-what"></div>Сергей
-							<div class="worksheet-info"></div>Иванов
+							<div class="worksheet-what">Мой возраст:</div>
+							<div class="worksheet-info">26</div>
 						</li>
 						<li class="worksheet-item clearfix">
-							<div class="worksheet-what"></div>Сергей
-							<div class="worksheet-info"></div>Иванов
+							<div class="worksheet-what">Мой город:</div>
+							<div class="worksheet-info">Санкт-Петербург</div>
 						</li>
 						<li class="worksheet-item clearfix">
-							<div class="worksheet-what"></div>Сергей
-							<div class="worksheet-info"></div>Иванов
+							<div class="worksheet-what">Моя специализация:</div>
+							<div class="worksheet-info">FRONTEND разработчик</div>
 						</li>
 						<div class="worksheet-item clearfix">
-							<div class="worksheet-what"></div>
-							<div class="worksheet-info skills"></div>
-								<ul class="skills-list">
-									<li class="skills-item">Php</li>
-									<li class="skills-item">Php</li>
-									<li class="skills-item">Php</li>
-									<li class="skills-item">Php</li>
-								</ul>
-							</div>
+							<div class="worksheet-what skills-work">Ключевые навыки:</div>
+							<ul class="skills">
+								<li href="#">html</li>
+								<li href="#">javascript</li>
+								<li href="#">css</li> 
+								<li href="#">php</li>
+
+								<li href="#">git</li> 
+								<li href="#">gulp</li> 
+							</ul>
 						</div>
-					</ul>
+				    </ul>
 				  </div>
 				</div>
 			</section>
+
 			<section class="aboutbox">
-				<<h2 class="aboutbox-header">Опыт работы</h2>
-				<div class="aboutbox-body clearfix">
+				<h2 class="aboutbox-header">Опыт работы</h2>
+				<div class="aboutbox-body ">
 				 	<ul class="aboutbox-list">
-				 		<li class="aboutbox-item icon-college">
-				 			<div class="where"></div>
-				 			<div class="period"></div>
+				 		<li class="aboutbox-item icon-work">
+				 			<div class="where">ООО Бордо - Банктеный менеджер</div>
+				 			<div class="period">Сентябрь 2007 - Август 2012</div>
 				 		</li>
-				 		<li class="aboutbox-item icon-course">
-				 			<div class="where"></div>
-				 			<div class="period"></div>
-				 		</li>
-				 	</ul>
-				</div>
-				</div>
-			</section>
-			<section class="aboutbox">
-				<h2 class="aboutbox-header">Образование</h2>
-				<div class="aboutbox-body clearfix">
-				 	<ul class="aboutbox-list">
-				 		<li class="aboutbox-item icon-college">
-				 			<div class="where"></div>
-				 			<div class="period"></div>
-				 		</li>
-				 		<li class="aboutbox-item icon-course">
-				 			<div class="where"></div>
-				 			<div class="period"></div>
+				 		<li class="aboutbox-item icon-work">
+				 			<div class="where">ТД Энергосервис - Кладовщик</div>
+				 			<div class="period">Август 2012 - по настоящее время</div>
 				 		</li>
 				 	</ul>
 				</div>
 			</section>
 
-  </div>
-</div>
-<!-- Footer -->
-	<footer class="page-footer">
+			<section class="aboutbox">
+				<h2 class="aboutbox-header clearfix">Образование</h2>
+				<div class="aboutbox-body ">
+				 	<ul class="aboutbox-list">
+				 		<li class="aboutbox-item icon-college">
+				 			<div class="where">Полное среднее. СПбПЭК</div>
+				 			<div class="period">Сентябрь 2006 - Август 2009</div>
+				 		</li>
+				 		<li class="aboutbox-item icon-univer">
+				 			<div class="where">Полное Высшее. СПбПУ</div>
+				 			<div class="period">Сентябрь 2009 - Февраль 2013</div>
+				 		</li>
+				 		<li class="aboutbox-item icon-course">
+				 			<div class="where">Курсы loftschool.ru</div>
+				 			<div class="period">Сентябрь 2015 - по настоящее время</div>
+				 		</li>
+				 	</ul>
+				 </div>
+			</section>
+		 </div>
+    	</div>
+   
+     </div>
+ </div>
+
+
+<!-- Footer  -->
+	<footer class="page-footer clearfix">
 		<div class="container">
-			<div class="lock"><a href="/login.html" class="lock-inner">Войти</a></div>
+			<div class="lock"><a href="/login.html" class="lock-inner">вход</a></div>
 			<div class="copyright">2015, Это мой сайт, пожалуйста, не копируйте и не воруйте его.</div>
 		</div>
-	</footer>
-        <!-- Vendor JS -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>
+ 	</footer> 
+        <!-- Vendor JS-->
+       
+        <script src="bower/jquery/jquery.js"></script>
         <!-- JS -->
-        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
   

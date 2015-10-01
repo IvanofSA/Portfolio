@@ -1,0 +1,284 @@
+.variable-content{
+  float: right;
+  width: 650px;
+  margin-left: 0px;
+}
+.aboutbox {
+  width: 100%;
+  line-height: 1,8;
+  margin-bottom: 25px;
+}
+.aboutbox-header {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'open_sanssemibold';
+  color: #eeedec;
+  padding-top: 10px;
+  padding-left: 40px;
+  margin-bottom: 0px;
+  border: 1px solid #9c9c9c;
+  height: 56px;
+  border-radius: 5px 5px 0 0;
+  background: #a8a8a8; /* Old browsers */
+background: -moz-linear-gradient(top,  #a8a8a8 25%, #7b797a 90%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#a8a8a8), color-stop(90%,#7b797a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a8a8a8 25%,#7b797a 90%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a8a8a8 25%,#7b797a 90%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a8a8a8 25%,#7b797a 90%); /* IE10+ */
+background: linear-gradient(to bottom,  #a8a8a8 25%,#7b797a 90%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#7b797a',GradientType=0 ); /* IE6-9 */
+   text-shadow: 0px 1px 1px rgba(255,255,255,0.2);
+}
+.aboutbox-body {
+  margin-top: 0;
+  width: 100%;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f6f6+0,f0eeed+100 */
+background: rgb(247,246,246); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,246,246,1) 0%, rgba(240,238,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,246,246,1)), color-stop(100%,rgba(240,238,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(247,246,246,1) 0%,rgba(240,238,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(247,246,246,1) 0%,rgba(240,238,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(247,246,246,1) 0%,rgba(240,238,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(247,246,246,1) 0%,rgba(240,238,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6f6', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
+
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0.5px 5px #c4c4c4;
+  padding: 0;
+  margin-bottom: 37px;
+}
+.avatar-box{
+  overflow: hidden;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border: 7px solid #f5f4f2;
+  box-shadow: 0 0 0.5px #000;
+}
+.avatar {
+ width: 100%;
+}
+.image-wrap{
+  float: left;
+  padding-top: 38px;
+  margin-bottom: 36px;
+  margin-left: 41px;
+}
+.worksheet-wrap{
+  float: right;
+  width: 440px;
+  padding-top: 31px;
+ 
+}
+.worksheet-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.worksheet-item{
+  color: #727070;
+  margin-bottom: 5px;
+}
+.worksheet-what{
+    font-family: 'open_sanssemibold';
+  display: inline-block;
+  font-size: 14px;
+   margin-left: 17px;
+}
+
+.worksheet-info{
+display: inline-block;
+font-family: 'open_sansregular';
+font-size: 14px;
+}
+
+
+
+.skills {
+  float: right;
+  padding-top: 4px;
+  width: 200px;
+  margin-bottom: 36px;
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.skills li {
+  display: inline-block;
+  height: 21px;
+  margin: 0 10px 0 0;
+  padding: 0 7px 0 14px;
+  white-space: nowrap;
+  position: relative;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,e0e0e0+100 */
+background: rgb(248,248,248); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,248,248,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+
+
+  color: #1e7465;
+  font: bold 11px/20px Arial, Tahoma, sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255,255,255,0.4);
+
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #b8b8b8;
+  border-right: 1px solid #d5d5d5;
+  border-radius: 1px 3px 3px 1px;
+  box-shadow: inset 0 1px #b8b8b8, 0 1px 2px rgba(0,0,0,0.21);
+}
+.skills li:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -6px;
+  width: 10px;
+  height: 10px;
+
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,e0e0e0+100 */
+background: rgb(248,248,248); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,248,248,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(248,248,248,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+
+
+  border-left: 1px solid #d5d5d5;
+  border-bottom: 1px solid #b8b8b8;
+  border-radius: 0 0 0 2px;
+  box-shadow: inset 1px 0 #d5d5d5, 0 2px 2px -2px rgba(0,0,0,0.33);
+}
+.skills li:before {
+  -webkit-transform: scale(1, 1.5) rotate(45deg);
+  -moz-transform: scale(1, 1.5) rotate(45deg);
+  -ms-transform: scale(1, 1.5) rotate(45deg);
+  transform: scale(1, 1.5) rotate(45deg);
+}
+.skills li:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 1px;
+  width: 5px;
+  height: 3px;
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.21);
+}
+
+
+
+.icon-work:before{
+content: "";
+position: absolute;
+display: block;
+width: 53px;
+height: 54px;
+left: 43px;
+top: 50%;
+margin-top: -26px; 
+border-radius: 50%;
+box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 1px 1px 0px 0px rgba(199, 199, 199, 0.75);
+background: #f7f7f7 url(../img/case.png)no-repeat center;
+}
+
+.aboutbox-list{
+  margin:0px;
+  padding: 23px 0 25px 0;
+  list-style: none;
+
+  }
+.aboutbox-item {
+    color: #727070;
+    font-weight: 600;
+    padding: 26px 0 26px 120px;
+    border-top: 1px solid #fff;
+    position: relative;
+    
+}
+
+.icon-work:first-child{
+  border: none;
+}
+
+.where {
+  font-family: 'open_sanssemibold';
+  color:  #727070;
+  font-size: 14px;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.2);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+          padding-left: 19px;
+
+}
+.period {
+  font-family: 'open_sanslight';
+  color:  #727070;
+  font-size: 14px;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.2);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;  
+          padding-left: 19px;
+
+}
+.icon-college:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 53px;
+    height: 54px;
+    left: 43px;
+    top: 50%;
+     margin-top: -26px; 
+    border-radius: 50%;
+     background: #f7f7f7 url(../img/school.png) no-repeat center;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 1px 1px 0px 0px rgba(199, 199, 199, 0.75);
+  
+ }
+
+.icon-univer:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 53px;
+    height: 54px;
+    left: 43px;
+    top: 50%;
+margin-top: -26px; 
+ background: #f7f7f7 url(../img/graduate.png) no-repeat center;
+    border-radius: 50%;
+     background-color: #f7f7f7;
+    box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.4),inset 1px 1px 0px 0px rgba(199, 199, 199, 0.75);
+
+}
+
+.icon-course:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 53px;
+    height: 54px;
+    left: 43px;
+    top: 50%;
+margin-top: -26px; 
+ background: #f7f7f7 url(../img/file.png) no-repeat center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 1px 1px 0px 0px rgba(199, 199, 199, 0.75);
+ }
+.aboutbox-item:first-child{
+  border: none;
+}

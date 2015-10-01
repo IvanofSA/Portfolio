@@ -1,0 +1,44 @@
+.page-footer {
+ 	min-height: 61px;
+ 	margin-top: -61px;
+	background: #f0f0f0; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #f0f0f0 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #f0f0f0 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-radial-gradient(center, ellipse cover, #f0f0f0 1%,#ffffff 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #f0f0f0 1%,#ffffff 100%); /* W3C */
+	font-family: 'open_sanslight', sans-serif;
+	min-width: 970px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.4);
+	position: relative;
+}
+.page-footer .container{
+	position: relative;
+}
+.page-footer .copyright {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 23px;
+	padding-top: 23px;
+	font-size: 11px;
+	color: #9c9c9c;
+	font-family: 'open_sanslight_italic', sans-serif;
+}
+.page-footer .lock{
+	position: absolute;
+	top: 20px;
+	left: 170px;
+}
+.page-footer .lock-inner{
+	display: block;
+	height: 25px;
+	background: url(../img/locked.png) no-repeat;
+	font-size: 16px;
+	font-family: 'open_sansbold', sans-serif;
+	text-decoration: none;
+	color: #9c9c9c;
+	padding-left: 25px;
+	line-height: 1.4;
+}
+.page-footer .lock-inner:hover{
+	background: url(../img/unlocked.png) no-repeat;
+}

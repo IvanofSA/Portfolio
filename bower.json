@@ -2,6 +2,7 @@
   "name": "site",
   "dependencies": {
     "jquery": "1.8",
+    "modernizr": "~3.0.0",
     "normalize-css": "normalize.css#~3.0.3"
   }
 }

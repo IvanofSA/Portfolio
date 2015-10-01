@@ -1,0 +1,77 @@
+.page-header {
+  height: 90px;
+  background-color: #757373;
+  border-bottom: 7px solid #ffffff;
+  box-shadow: 0 0 1px rgba(0,0,0,0.4);
+  position: relative;
+  margin-bottom: 34px;
+}
+.container-big {
+  max-width: 1400px;
+  min-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.page-header .header-log-link{
+position: absolute;
+top: 20px;
+left: 20px;
+}
+.page-header .header-logo-text{
+position: absolute;
+left: -9999px;
+}
+.page-header .socials {
+	position: absolute;
+	right: 70px;
+	top: 25px;
+}
+/* social icons*/
+.socials{	
+margin: 0;
+padding: 0;
+}	
+.socials .socials-item{ 
+display: inline-block;
+list-style: none;
+width: 36px;
+height: 36px;
+margin-left: 13px;
+background-color: #fff;
+border-radius: 50% 50%;
+}
+.socials .socials-item:first-child{
+	margin-left: 0;
+}
+.socials .socials-link{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+    background: url(../img/sprite.png) no-repeat center; 
+}
+.socials .socials-link.fb{
+background-position: -1px -6px;
+}
+.socials .socials-link.vk{
+background-position: -289px -5px;
+}
+.socials .socials-link.tw{
+background-position: -192px -5px;
+}
+.socials .socials-link.gh{
+background-position: -83px -6px;
+}
+.socials .socials-link.fb:hover{
+background-position: -38px -6px;
+}
+.socials .socials-link.vk:hover{
+background-position: -331px -5px;
+}
+.socials .socials-link.tw:hover{
+background-position: -243px -5px;
+}
+.socials .socials-link.gh:hover{
+background-position: -139px -6px;
+}
