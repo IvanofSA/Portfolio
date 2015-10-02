@@ -69,6 +69,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6f6', end
   float: right;
   width: 440px;
   padding-top: 31px;
+  line-height: 1.3;
  
 }
 .worksheet-list{
