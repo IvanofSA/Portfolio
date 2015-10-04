@@ -59,14 +59,14 @@
     				<nav class="navigation">
     					<ul class="navigation-list ">
     						<li class="navigation-item current">
-    							<a href="" class="navigation-link about">Обо мне</a>
-    						</li>
-    						<li class="navigation-item">
-    							<a href=""class="navigation-link my-work">Мои работы</a>
-    						</li>
-    						<li class="navigation-item">
-    							<a href=""class="navigation-link tell-me">Связаться со мной</a>
-    						</li>
+                        <a href="index.html" class="navigation-link about">Обо мне</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="my-work.html"class="navigation-link my-work">Мои работы</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="contact-me.html"class="navigation-link tell-me">Обратная связь</a>
+                    </li>
     					</ul>				
     				</nav>
 
@@ -179,27 +179,27 @@
     									</a>
     								</div>
     							</li>
-  <div id="popup">
-	<form method="POST" id="feedback-form">
-				<p class="add-text">Название проекта</p>
-					<input class="input" type="text" name="pro-name" required placeholder="Введите название" x-autocompletetype="pro-name">
-				<p class="add-text">Картинка проекта</p>
+                               <div id="popup">
+                                <form method="POST" id="feedback-form">
+                                <label for="name-work" class="add-text">Название проекта</label>
+                                    <input class="input" type="text" id="name-work" name="pro-name" required placeholder="Введите название" x-autocompletetype="pro-name">
+                                    <label for="" class="add-text">Картинка проекта</label>
 
 
-				<label  for="" class ="input file-label" placeholder="Загрузите изображение"> <div id="fileformlabel" class="input-file-name">Загрузите изображение</div>
-				<input  class="input-file__element" type="File" name="image" required placeholder="Загрузите изображение" x-autocompletetype="image" onchange="getName(this.value);">
-				<div  class="button-file-wrapper"> 
-				<div class="button-file"></div></div>
-				</label>
+                                    <label  for="" class ="input file-label" placeholder="Загрузите изображение"> <div id="fileformlabel" class="input-file-name">Загрузите изображение</div>
+                                        <input  class="input-file__element" type="File" name="image" required placeholder="Загрузите изображение" x-autocompletetype="image" onchange="getName(this.value);">
+                                        <div  class="button-file-wrapper"> 
+                                            <div class="button-file"></div></div>
+                                        </label>
 
 
-				<p class="add-text">URL проекта</p>
-				<input class="input" type="text" name="url" required placeholder="Добавьте ссылку" x-autocompletetype="url">
-				<p class="add-text">Описание</p>
-				<textarea class="input big" name="about"  rows="5" required placeholder="Пару слов о Вашем проекте"></textarea>
-				<input class="sub current" type="submit" value="Добавить">
-				</form>
-            </div>
+                                        <label for="url" class="add-text">URL проекта</label>
+                                        <input class="input" type="text" id="url" name="url" required placeholder="Добавьте ссылку" x-autocompletetype="url">
+                                        <label for="about-p" class="add-text">Описание</label>
+                                        <textarea class="input big" name="about" id="about-p" rows="5" required placeholder="Пару слов о Вашем проекте"></textarea>
+                                        <input class="sub current" type="submit" value="Добавить">
+                                    </form>
+                                </div>
 
 
     						</ul>
@@ -226,7 +226,7 @@
         <!-- Vendor JS-->
        
         <script src="bower/jquery/jquery.js"></script>
-        <script src="bower/bPopup/jquery.bpopup.min.js"></script>
+        <script src="bower/bpopup/jquery.bpopup.min.js"></script>
         <!-- JS -->
         <script src="js/main.js"></script>
 
