@@ -11,6 +11,13 @@ var MYAPP = function(){
 };
 MYAPP();
 
+
+// $('popup').bPopup({
+//             speed: 650,
+//             transition: 'slideIn',
+//       transitionClose: 'slideBack'
+//          } });
+                
 function getName (str){
     if (str.lastIndexOf('\\')){
         var i = str.lastIndexOf('\\')+1;

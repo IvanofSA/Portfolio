@@ -17,6 +17,7 @@ padding: 0;
 .navigation .navigation-item{
 min-height: 56px;
 box-shadow: inset 0px 1px 4px #cacaca;
+background: #fbfbfb; /* Old browsers */
   background-image: -moz-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
@@ -32,6 +33,7 @@ font-size: 20px;
 padding-left: 28px;
 color: #727070;
 text-shadow: rgba(255,255,255,0.5) 0px .5px .5px;
+
 }
 .navigation .navigation-item:hover{
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d1d1d1+1,bebdbd+100 */
@@ -46,12 +48,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', end
 }
 
 .navigation .navigation-link:active{
-background-color: black;
--webkit-background-clip: text;
+	background-color: black;
+	-webkit-background-clip: text;
 -moz-background-clip: text;
-background-clip: text; 
-color: transparent;
-text-shadow: rgba(255,255,255,0.5) 0px .5px .5px;
+	background-clip: text; 
+	color: transparent;
+	text-shadow: rgba(255,255,255,0.5) 0px .5px .5px;
 
 }
 
@@ -120,6 +122,7 @@ font-style: normal;
   border-width: 1px;
   border-color: rgb(212, 211, 210);
   box-shadow: inset 0px 1px 4px #cacaca;
+  background: #fbfbfb; /* Old browsers */
   background-image: -moz-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
@@ -157,8 +160,6 @@ font-style: normal;
 	width: 18px;
 	height: 18px;
 	background: url(../img/spritesheet.png) no-repeat -5px -5px ;
-	
-	
 }
 .contacts-link.phone:after{
 	display: inline-block;

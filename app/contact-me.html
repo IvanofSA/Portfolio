@@ -101,41 +101,46 @@
     				</address>
     			</aside>
                     <section class="aboutbox">
-                    <h2 class="aboutbox-header">Мои работы</h2>
+                    <h2 class="aboutbox-header">У вас интересный проект? Напишите мне</h2>
                     <div class="aboutbox-body contact-me clearfix ">
                         <div class="wrapper-contact">
-                            <form method="POST" id="feedback-form" class="contact-form">
+                         
 
-                               
-                                <div class="contact-name-left ">
-                                    <label for="name-contact" class="add-name">Имя</label>  
-                                    <input  class="input first"type="text" id="name-contact"name="name" required placeholder="Как к вам обращаться" x-autocompletetype="name">
-                                </div>
+                <form method="POST" id="feedback-form" class="send-form clearfix">
 
-                                <div class="contact-email-right  ">
-                                    <label for="email-contact" class="add-name">Email</label>  
-                                    <input class="input second"type="text" name="email" id="email-contact" required placeholder="Куда мне писать" x-autocompletetype="email">
-                                </div>
+                        <div class="wrapper-container clearfix">
+                    <div class="send-text-label left">
+                        <p class="send-text">Имя</p>
+                        <input class="input first" type="text" name="name"  placeholder="Как к вам обращаться" >
+                    </div>
 
-                             
-                                <div class="contact-textarea-input " >
-                                    <label for="coments-contact" class="add-name">Сообщение</label>  
-                                    <textarea class="input big" name="coments" id="coments-contact" rows="5" required placeholder="Кратко в чем суть" x-autocompletetype="coments"></textarea>
-                                </div>
 
-                                <div class="kapcha-div ">
-                                    <p class="add-name">Введите код, указанный на картинке</p>
-                                    <div class="kapcha-div-img">
-                                        <img src="../img/capcha.png" alt="Картинка с цифрами" class="kapcha"></div>
-                                        <input class="input code" type="text" name="kapcha" required placeholder="Введите код" x-autocompletetype="name">
-                                    
-                                </div>
-                                    <div class="contact-button">
-                                        <input class="sub sub-send" type="submit" value="Отправить">
-                                        <input class="sub sub-clear" type="reset" value="Очистить">
-                                    </div>
+                    <div class="send-text-label right">
+                        <p class="send-text">Email</p>
+                        <input class="input second" type="text" name="email"  placeholder="Куда мне писать" >
+                    </div>
 
-                                </form>
+                      
+                    <div class="send-massage-label">
+                        <p class="send-text">Сообщение</p>
+                        <textarea class="input big " name="message"  rows="5" placeholder="Кратко в чем суть"></textarea>
+                    </div>
+                
+
+                    <div class="kapcha-label clearfix">
+                        <p class="send-text">Введите код, указанный на картинке</p>
+                        <div class="kapcha-div-img">
+                            <img src="../img/capcha.png" alt="" class="kapcha"> 
+                            <input class="input code" type="text" name="kapcha"  placeholder="Введите код" >
+                           </div>
+                        </div>
+
+                <div class="buttons-div">
+                <input class="buttons" type="submit" value="Отправить">
+                <input class="buttons res" type="reset" value="Очистить">
+                </div>
+  </div>
+                </form>
 
 
 

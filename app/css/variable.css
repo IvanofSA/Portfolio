@@ -7,7 +7,7 @@
   float: right;
   width: 650px;
   line-height: 1,8;
-  margin-bottom: 25px;
+ /* margin-bottom: 25px;*/
 }
 .aboutbox-header {
   -moz-box-sizing: border-box;  
@@ -17,9 +17,10 @@
   color: #eeedec;
   padding-top: 10px;
   padding-left: 40px;
+  padding-bottom: 10px;
   margin-bottom: 0px;
   border: 1px solid #9c9c9c;
-  height: 56px;
+  min-height: 56px;
   border-radius: 5px 5px 0 0;
   background: #a8a8a8; /* Old browsers */
 background: -moz-linear-gradient(top,  #a8a8a8 25%, #7b797a 90%); /* FF3.6+ */

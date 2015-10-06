@@ -35,7 +35,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6f6', end
 
 .work-item {
   padding: 5px;
-  padding-bottom: 9px;
+  padding-bottom: 10px;
 }
 .wrapper-img{
   width: 100%;
@@ -92,9 +92,10 @@ font-family: 'open_sanssemibold';
 .about-work{
   font-family: 'open_sanslight';
   font-size: 12px;
-  padding:5px 0 5px 0;
+  padding:6px 3px 6px 3px;
   margin: 0;
   margin:0;
+  line-height: 1.35;
   border: 2px solid #dcdcdc;
   background: #fff;
   border-bottom-left-radius: 5px; 
@@ -214,10 +215,10 @@ width:160px;
    23px 0 20px -23px rgba(0, 0, 0, .8),
    0 0 40px rgba(0, 0, 0, .1) inset;    border-radius:5px;
     display:none; 
-    padding: 7px 22px;
-    width: 370px;
-    min-width:310px;
-    min-height: 460px;
+    padding: 13px 22px 0px;
+    width: 365px;
+    min-width:320px;
+    min-height: 463px;
     background: rgb(250,249,248); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(250,249,248,1) 0%, rgba(246,245,244,1) 51%, rgba(240,238,237,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,249,248,1)), color-stop(51%,rgba(246,245,244,1)), color-stop(100%,rgba(240,238,237,1))); /* Chrome,Safari4+ */
@@ -228,7 +229,9 @@ background: linear-gradient(to bottom, rgba(250,249,248,1) 0%,rgba(246,245,244,1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf9f8', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
 
     }
-.add-text{
+    .add-text{
+      display: block;
+     padding: 7px 0 9px 0px;
     color: #727080;
     font-family: 'open_sanssemibold';
     font-size: 0.85em;
@@ -237,8 +240,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf9f8', end
     color: #c7c6c6;
   font-family: 'open_sanssemibold';
   font-size: 0.7em;
-  height: 40px;
-  width: 322px;
+  height: 39px;
+    width: 309px;
   padding-left: 10px;
   border: 1px solid #d6d5d3;
   border-radius: 5px;
@@ -253,9 +256,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', end
 }
 
 .input.big {
-  height: 109px;
+  height: 99px;
    resize: none;
-   margin-bottom: 15px;
+   margin-bottom: 8px;
    padding-top: 7px;
 }
 .input.file-label{
@@ -270,22 +273,24 @@ box-sizing: border-box;
   cursor:pointer;
   padding-left: 10px;
   padding-top: 10px;
-  width: 332px;
+  width: 320px;
 }
 .input-file__element{
 position: absolute;
 top: 0;
 left:0px;
-width: 322px;
+width: 322px;   
 height: 40px;
 opacity: 0;
 cursor: pointer;
-/*left:-9999px;*/
+
+
 }
 .button-file-wrapper {
   margin-top: -26px;
   border-radius: 0 5px 5px 0;
   border: 1px solid #d6d5d3;
+  margin-right: -2px;
   width: 50px;
   height: 38px;
   float: right;
@@ -306,9 +311,9 @@ width: 50px;
 }
 
 .sub {
-  width: 123px;
-  height: 39px;
-  margin-left: 30%;
+      width: 124px;
+    height: 40px;
+    margin-left: 27.5%;
   margin-bottom: 15px;
   border-radius: 5px;
   font-family: open_sans_semibold;
