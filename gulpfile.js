@@ -28,28 +28,10 @@ gulp.task("server", function () {
     });
 });
 
-// Подключаем Bower файлы
-// gulp.task("wiredep-bower", function () {
-//     return gulp.src("./app/*.html")
-//         .pipe(wiredep({
-            
-//             , overrides: {
-//                 "qtip2": {
-//                     "main": ["./jquery.qtip.min.js", "./jquery.qtip.min.css"],
-//                     "dependencies": {"jquery": ">=1.6.0"}
-//                 }
-//             }
-//             //, exclude: ["bower/qtip2/"]
-//             //, ignorePath: /^(\.\.\/)*\.\./
-//         }))
-//         .pipe(gulp.dest("./app"));
-// });
-
 gulp.task( 'wiredep-bower' , function () {
-  gulp.src( ' ./app/*.html ' )
+  gulp.src('app/*.html')
   .pipe( wiredep ({
-    directory: "./app/bower",
-    ignorePath: /^(\.\.\/)*\.\./
+    directory: './app/bower'
   }) )
   .pipe(gulp.dest( './app' ));
 });
