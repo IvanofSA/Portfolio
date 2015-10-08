@@ -16,13 +16,16 @@
         <!-- Font CSS -->
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
+        <!-- build:css css/combined.css -->
+        <!-- bower:css -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/sidebar.css">
-        <link rel="stylesheet" href="css/variable.css">
         <link rel="stylesheet" href="css/contact-me.css">
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <script src="bower/modernizr/modernizr.js"></script>
     </head>
 
     <body>
@@ -58,13 +61,13 @@
     			<aside class="sidebar">
     				<nav class="navigation">
     					<ul class="navigation-list ">
-    						<li class="navigation-item current">
+    						<li class="navigation-item ">
                         <a href="index.html" class="navigation-link about">Обо мне</a>
                     </li>
                     <li class="navigation-item">
                         <a href="my-work.html"class="navigation-link my-work">Мои работы</a>
                     </li>
-                    <li class="navigation-item">
+                    <li class="navigation-item current">
                         <a href="contact-me.html"class="navigation-link tell-me">Обратная связь</a>
                     </li>
     					</ul>				
@@ -166,9 +169,14 @@
         <!-- Vendor JS-->
        
         <script src="bower/jquery/jquery.js"></script>
+        
+        <!-- build:js scripts/combined.js -->
+        <!-- bower:js -->
         <script src="bower/bPopup/jquery.bpopup.min.js"></script>
-        <!-- JS -->
-        <script src="js/main.js"></script>
+        <script src="bower/jquery/jquery.js"></script>
+         <script src="js/main.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
     </body>
 </html>

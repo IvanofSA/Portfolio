@@ -2,8 +2,21 @@
   "name": "site",
   "dependencies": {
     "jquery": "1.8",
-    "modernizr": "~3.0.0",
     "normalize-css": "normalize.css#~3.0.3",
-    "qtip2": "~2.2.1"
+    "qtip2": "~2.2.1",
+    "modernizr": "2.8.3"
   }
 }
+// {
+// 	"overrides" : {
+// 		"qtip2" : {
+// 			"main" : [
+// 			"./jquery.qtip.min.js" ,
+// 			"./jquery.qtip.min.css "
+// 			],
+// 			" dependencies " : {
+// 				" jquery " : " >=1.6.0 "
+// 			}
+// 		}
+// 	}
+// }

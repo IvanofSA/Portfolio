@@ -60,13 +60,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', end
 /*sidebar finish*/
 
 .navigation .navigation-item.current{
- 
+  background: #5bcdb1;
   background-image: -moz-linear-gradient( 90deg, rgb(116,182,150) 0%, rgb(165,232,203) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(116,182,150) 0%, rgb(165,232,203) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(116,182,150) 0%, rgb(165,232,203) 100%);
   box-shadow: 0px 2px 1px 0px rgba(17, 17, 17, 0.16),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
-margin: 0;
-box-shadow: inset 1px 2px 1px #a5efdd;
+  margin: 0;
+  box-shadow: inset 1px 2px 1px #a5efdd;
 }
 
 /*contacts*/

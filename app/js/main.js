@@ -2,21 +2,24 @@
 
 var MYAPP = function(){
    var callPopup = $('#add'),
-       popup = $('#popup');
+       popup = $('.popup');
 
    callPopup.on('click', function(e){
        e.preventDefault();
        popup.bPopup();
+
    })
 };
 MYAPP();
 
+      $('.window-close').click(function() {
+        $(this).hide();
+        $('.popup').hide();
+        $('b-modal, .__b-popup1__').hide(); 
+    });
 
-// $('popup').bPopup({
-//             speed: 650,
-//             transition: 'slideIn',
-//       transitionClose: 'slideBack'
-//          } });
+
+
                 
 function getName (str){
     if (str.lastIndexOf('\\')){

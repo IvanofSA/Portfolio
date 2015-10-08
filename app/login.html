@@ -10,51 +10,51 @@
         <meta name="author" content="Иванов Сергей">
         <!-- favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
         <!-- Vendor CSS -->
         <link href="bower/normalize-css/normalize.css" rel="stylesheet">
         <!-- Font CSS -->
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
+         <!-- build:css css/combined.css -->
+        <!-- bower:css -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/sidebar.css">
-        <link rel="stylesheet" href="css/variable.css">
         <link rel="stylesheet" href="css/login.css">
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <script src="bower/modernizr/modernizr.js"></script>
     </head>
 
     <body>
 <div class="wrapper">
-	<div class="wrapper-login">
 
-		<form method="POST" id="login"	class="login">
-		   
-			<label class="enter-email">
-				<div class="enter-img email-img"></div>
-				<input type="email" name="email" placeholder="Введите Email" class="enter-input">
-			</label>
-				
-			<label class="enter-password">
-				<div class="enter-img password-img"></div>
-				<input type="password" name="password" placeholder="Введите Password" class="enter-input">
-			</label>
+         <div class="wrapper-login">
 
-							
-			<div class="checkbox-login">
-				<input type="checkbox"  class="checkbox" >
-				<label class="checkbox-label">Запомнить меня?</label>
-			</div>
+          <form method="POST" id="login"	class="login">
+             <!-- <span class="login-close">X</span> -->
+             <label class="enter-email">
+                <div class="enter-img email-img"></div>
+                <input type="email" name="email" placeholder="Введите Email" class="enter-input">
+            </label>
 
-				
-				<input class="button" type="submit" value="Войти"
-			</div>
-
-		</form>
+            <label class="enter-password">
+                <div class="enter-img password-img"></div>
+                <input type="password" name="password" placeholder="Введите Password" class="enter-input">
+            </label>
 
 
+            <div class="checkbox-login">
+                <input type="checkbox"  class="checkbox" >
+                <label class="checkbox-label">Запомнить меня?</label>
+            </div>
+
+            <input class="button" type="submit" value="Войти">
+    </form>
 </div>
+
 </div>
 
 <!-- Footer  -->
@@ -66,9 +66,13 @@
  	</footer> 
         <!-- Vendor JS-->
        
+        <!-- build:js scripts/combined.js -->
+        <!-- bower:js -->
+        <script src="bower/bPopup/jquery.bpopup.min.js"></script>
         <script src="bower/jquery/jquery.js"></script>
-        <!-- JS -->
         <script src="js/main.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
     </body>
 </html>
