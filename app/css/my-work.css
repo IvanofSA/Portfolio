@@ -231,22 +231,80 @@ box-sizing: border-box;
   padding-top: 10px;
   width: 320px;
 }
+
+
+
+/*.file_upload{
+    width:314px;
+    margin-left:21px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;             
+    height: 40px;                 
+    line-height: 2.5em             
+}
+.file_upload .button, .file_upload > .mark-text{
+    display: block;
+    cursor: pointer            
+}
+.button{
+    text-indent:-9999px;
+}
+.file_upload .button{
+    float: right;
+    width: 49px;                 
+    height: 100%;          
+}
+.file_upload > mark{
+    background: #FFF;     
+    padding-left: 1em;          
+}
+
+.file_upload input[type=file]{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width:1px;
+    height:1px;
+}
+.file_upload{
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+}
+.file_upload .button{
+    background:url(../img/add-file.png) no-repeat;
+}
+.file_upload:hover .button{
+    background:url(../img/add-file.png) no-repeat;
+}
+.mark-text{
+    color:#48cbe8;
+    font-family:'fira_sansbook';
+    font-size:13px;
+    margin-left:-4px;
+}*/
+
+
+
+
 .input-file__element{
 position: absolute;
 top: 0;
-left:0px;
-width: 322px;   
-height: 40px;
+left:0;
+width: 321px;   
+height: 38px;
 opacity: 0;
 cursor: pointer;
+z-index: -11;
 }
 .button-file-wrapper {
   margin-top: -26px;
   border-radius: 0 5px 5px 0;
   border: 1px solid #d6d5d3;
   margin-right: -2px;
-  width: 50px;
-  height: 38px;
+  width: 58px;
+  height: 37px;
   float: right;
   background: rgb(252,251,251); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(252,251,251,1) 0%, rgba(241,239,238,1) 50%, rgba(231,229,229,1) 100%); /* FF3.6+ */
@@ -260,10 +318,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfbfb', end
 .button-file{
 width: 50px;
   height: 100%;
-  background: url(../img/down.png) no-repeat center;
+  background: url(../img/down.png) no-repeat 16px center;
+
 
 }
-
 .sub {
       width: 124px;
     height: 40px;

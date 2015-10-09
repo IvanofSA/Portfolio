@@ -7,7 +7,6 @@ var MYAPP = function(){
    callPopup.on('click', function(e){
        e.preventDefault();
        popup.bPopup();
-
    })
 };
 MYAPP();
@@ -18,9 +17,6 @@ MYAPP();
         $('b-modal, .__b-popup1__').hide(); 
     });
 
-
-
-                
 function getName (str){
     if (str.lastIndexOf('\\')){
         var i = str.lastIndexOf('\\')+1;
@@ -33,4 +29,11 @@ function getName (str){
     uploaded.innerHTML = filename;
 }
 
+$(document).ready(function($) {
+ 
+ if(!Modernizr.input.placeholder){ 
+  $('input, textarea').placeholder();
+}
+
+});
 
