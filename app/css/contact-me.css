@@ -2,7 +2,7 @@
 .send-form{
 	width: 405px;
 	height: 100%;
-	margin-left: 121px;
+	margin-left: 123px;
 	padding-top: 31px;
 	margin-bottom: 280px;
 }
@@ -45,8 +45,25 @@
     
 }
 .kapcha-label{
-	margin-bottom: 23px;
+	margin-bottom: 30px;
 }
+.kapcha-div-img {
+	/*border: 1px solid #d6d5d3;*/
+	border-radius: 5px;
+	width: 193px;
+	height: 81px;
+	position: relative;
+	top: -2px;
+	/*background: #fff;*/
+	overflow: hidden;
+	float: left;
+	margin-right: 19px;
+}
+.kapcha{
+	width: 100%;
+	vertical-align: middle;
+}
+
 .input{
 		color: #c7c6c6;
 	font-family: 'open_sanssemibold';
@@ -57,6 +74,8 @@
 	padding-left: 10px;
 	border: 1px solid #d6d5d3;
 	border-radius: 5px;
+	height: 30px\0/;
+	padding-top: 12px\0/;
 	background: rgb(251,252,253); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(251,252,253,1) 0%, rgba(249,249,250,1) 51%, rgba(244,244,244,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,252,253,1)), color-stop(51%,rgba(249,249,250,1)), color-stop(100%,rgba(244,244,244,1))); /* Chrome,Safari4+ */

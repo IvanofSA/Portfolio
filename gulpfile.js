@@ -20,14 +20,14 @@ var gulp = require("gulp"),
  * APP
  ******************************************/
 // Запускаем локальный сервер
-gulp.task("server", function () {
-    browserSync.init({
-        notify: false,
-        port: 1000,
-        server: { baseDir: "./app" }
-    });
+gulp.task('server', function () {
+  browserSync ({
+     port: 9000,
+     server: {
+          baseDir: './app'
+     }
+  });
 });
-
 gulp.task( 'wiredep-bower' , function () {
   gulp.src('app/*.html')
   .pipe( wiredep ({
@@ -41,6 +41,8 @@ gulp.task("bower-json", function () {
 });
 
 // Следим за файлами
+
+
 gulp.task("watch", function () {
     gulp.watch([
         "./app/*.html",

@@ -56,6 +56,9 @@ color: #727080;
 font-size: 11px;
 width: 184px;
 height: 36px;
+height: 30px\0/;
+padding-top: 12px\0/;
+position: relative;
 /*margin-bottom: 25px;*/
 border: 1px solid #d6d5d3;
 border-radius: 5px;
@@ -67,6 +70,7 @@ background: -o-linear-gradient(top, rgba(251,252,253,1) 0%,rgba(249,249,250,1) 5
 background: -ms-linear-gradient(top, rgba(251,252,253,1) 0%,rgba(249,249,250,1) 51%,rgba(244,244,244,1) 100%); /* IE10+ */
 background: linear-gradient(to bottom, rgba(251,252,253,1) 0%,rgba(249,249,250,1) 51%,rgba(244,244,244,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f4f4',GradientType=0 );
+z-index: 1;
 }
 .enter-email{
 	display: block;
@@ -76,6 +80,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', end
 	display: block;
 	margin-bottom: 15px;
 }
+
 
 .email-img{
 margin-left: 10px;
@@ -90,12 +95,15 @@ background: linear-gradient(to bottom, rgba(251,252,253,1) 0%,rgba(249,249,250,1
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f4f4',GradientType=0 );*/
 position: absolute;
 background: url(../img/emai-loginl.png)no-repeat center ;
+z-index: 32;
 }
+
+
 .password-img{
 margin-left: 10px;
 width: 46px;
 height: 40px;
-background: url(../img/key.png)no-repeat center center;
+
 background: -moz-linear-gradient(top, rgba(251,252,253,1) 0%, rgba(249,249,250,1) 51%, rgba(244,244,244,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,252,253,1)), color-stop(51%,rgba(249,249,250,1)), color-stop(100%,rgba(244,244,244,1))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top, rgba(251,252,253,1) 0%,rgba(249,249,250,1) 51%,rgba(244,244,244,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -105,6 +113,7 @@ background: linear-gradient(to bottom, rgba(251,252,253,1) 0%,rgba(249,249,250,1
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#f4f4f4',GradientType=0 );*/
 position: absolute;
 background: url(../img/key.png)no-repeat center center;
+z-index: 2;
 }
 .checkbox-login {
     display: inline-block;
