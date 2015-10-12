@@ -140,55 +140,69 @@ font-style: normal;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#f2e7d0',GradientType=0 ); /* IE6-9 */
 }
 .contacts .contacts-link{
-	padding-top: 7px;
-	display: block;
-	text-decoration: none;
-	font-family: 'open_sansregular';
-	font-size: 14px;
-	text-align: center;
-   color: #727070;
-   text-shadow: rgba(255,255,255,0.5) 0px .5px .5px;
+    line-height: 36px;
+    height: 36px;
+    padding-left: 77px;
+    font: 14px "open_sansregular", "Arial", sans-serif;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #737171;
+    background-color: #fbfbfb;
+    background-image: linear-gradient(to bottom, #fbfbfb 0%, #f5f5f5 100%);
+     
+}
+.contacts-text{
 
-
+line-height: 36px;
+    height: 36px;
 }
 .contacts-link.mail:after{
-	display: inline-block;
-	float: left;
-	content: '';
-	margin-top: 6px;
-	margin-left: 16px;
 	width: 18px;
 	height: 18px;
 	background: url(../img/spritesheet.png) no-repeat -5px -5px ;
+	position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    content: "";
+
 }
+
 .contacts-link.phone:after{
-	display: inline-block;
-	float: left;
-	content: '';
-	margin-top: 1px;
-	margin-left: 16px;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
+
+	position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    content: "";
 	background: url(../img/spritesheet.png) no-repeat -62px -5px;
 }
 .contacts-link.skype:after{
-	display: inline-block;
-	float: left;
-	content: '';
-	margin-top: 1px;
-	margin-left: 16px;
-	width: 18px;
+		width: 18px;
 	height: 18px;
+
+	position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    content: "";
 	background: url(../img/spritesheet.png) no-repeat -32px -5px;
 }
 .contacts-link:before{
 	content: '';
 	display: block;
+	left: 30px;
+	top: 6px;
 	position: absolute;
-	width: 21px;
-	height: 21px;
+	width: 22px;
+	height: 22px;
 	/*margin-top: -1px;*/
-	margin-left: 40px;
 	border-top: 2px solid #deb566;
 	border-right: 2px solid #deb566;
 	transform:scale(0.5, 1.2) rotate(45deg);
