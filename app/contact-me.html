@@ -13,6 +13,7 @@
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
         <!-- Vendor CSS -->
         <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
         <!-- Font CSS -->
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
@@ -110,33 +111,33 @@
                         <div class="wrapper-contact">
                          
 
-                <form method="POST" id="feedback-form" class="send-form clearfix">
+                <form method="POST" id="contact-me" class="send-form clearfix">
 
                         <div class="wrapper-container clearfix">
                     <div class="send-text-label left">
                         <p class="send-text">Имя</p>
-                        <input class="input first" type="text" name="name"  placeholder="Как к вам обращаться" >
+                        <input class="input first" type="text" name="name"  placeholder="Как к вам обращаться" qtip-position="left" qtip-content="Введите имя">
                     </div>
 
 
                     <div class="send-text-label right">
                         <p class="send-text">Email</p>
-                        <input class="input second" type="text" name="email"  placeholder="Куда мне писать" >
+                        <input class="input second" type="email" name="email"  placeholder="Куда мне писать" qtip-position="right" qtip-content="Введите email" >
                     </div>
 
                       
                     <div class="send-massage-label">
                         <p class="send-text">Сообщение</p>
-                        <textarea class="input big " name="message"  rows="5" placeholder="Кратко в чем суть"></textarea>
+                        <textarea class="input big " name="message"  rows="5" placeholder="Кратко в чем суть"qtip-position="left" qtip-content="Ваш вопрос"></textarea>
                     </div>
                 
 
                     <div class="kapcha-label clearfix">
                         <p class="send-text">Введите код, указанный на картинке</p>
                         <div class="kapcha-div-img">
-                            <img src="./img/capcha.png" height="83" width="195" alt="" class="kapcha">
+                            <img src="./img/capcha.png" height="83" width="195" alt="" class="kapcha" >
                         </div>
-                            <input class="input code" type="text" name="kapcha"  placeholder="Введите код" >
+                            <input class="input code" type="text" name="kapcha"  placeholder="Введите код" qtip-position="right" qtip-content="код капчи" >
                            
                         </div>
 
@@ -182,6 +183,8 @@
         <script src="bower/bPopup/jquery.bpopup.js"></script>
         <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
         <!-- endbower -->
+        <script src="js/contact-me.js"></script>
+        <script src="js/validation.js"></script>
         <script src="js/main.js"></script>
         <!-- endbuild -->
 

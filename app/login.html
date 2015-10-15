@@ -13,6 +13,7 @@
         <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
         <!-- Vendor CSS -->
         <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
         <!-- Font CSS -->
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
@@ -34,16 +35,16 @@
 
          <div class="wrapper-login">
 
-          <form method="POST" id="login"class="login">
+          <form method="" id="login" class="login">
              <!-- <span class="login-close">X</span> -->
              <label class="enter-email">
                 <div class="enter-img email-img"><div class=""></div></div>
-                <input type="email" name="email" placeholder="Введите Email" class="enter-input">
+                <input type="email" name="email" placeholder="Введите Email" class="enter-input" qtip-position="left" qtip-content="Введите email">
             </label>
 
             <label class="enter-password">
                 <div class="enter-img password-img"></div>
-                <input type="password" name="password" placeholder="Введите Password" class="enter-input">
+                <input type="password" name="password" placeholder="Введите Password" class="enter-input" qtip-position="left" qtip-content="Введите пароль">
             </label>
 
 
@@ -78,6 +79,8 @@
         <script src="bower/bPopup/jquery.bpopup.js"></script>
         <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
         <!-- endbower -->
+        <script src="js/login.js"></script>
+        <script src="js/validation.js"></script>
         <script src="js/main.js"></script>
         <!-- endbuild -->
 

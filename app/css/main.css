@@ -38,4 +38,23 @@ background-attachment: fixed;
 	width: 960px;
 	margin: 0 auto;
 }
+.qtip-mystyle {
+    padding: 2px 0;
+    border-color: #cb6945;
+    font-size: 12px;
+    background-color: #e48e70;
+    background-image: linear-gradient(to bottom,#f3a58b,#d67c5a);
+    box-shadow: inset 1px 1px 0 #f7c0ad;
+    text-shadow: rgba(255,255,255,0.5) 0px .5px .5px;
+    color: #9a4e32;
 
+}
+.has-error{
+    border-color: #f97e76 !important;
+    background: #ffcfcc !important;
+}
+.success-mes .error-mes{
+  display: block;
+  width: 100px;
+  height: 50px;
+}

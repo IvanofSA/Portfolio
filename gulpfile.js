@@ -24,16 +24,16 @@ gulp.task('server', function () {
   browserSync ({
      port: 9000,
      server: {
-          baseDir: './app'
+          baseDir: 'app'
      }
   });
 });
 gulp.task( 'wiredep-bower' , function () {
   gulp.src('app/*.html')
   .pipe( wiredep ({
-    directory: './app/bower'
+    directory: 'app/bower'
   }) )
-  .pipe(gulp.dest( './app' ));
+  .pipe(gulp.dest( 'app' ));
 });
 
 gulp.task("bower-json", function () {
@@ -45,9 +45,9 @@ gulp.task("bower-json", function () {
 
 gulp.task("watch", function () {
     gulp.watch([
-        "./app/*.html",
-        "./app/css/*.css",
-        "./app/js/*.js"
+        "app/*.html",
+        "app/css/*.css",
+        "app/js/*.js"
     ]).on("change", browserSync.reload);
 });
 

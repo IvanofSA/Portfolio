@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <!-- CSS -->
         <!-- build:css css/combined.css -->
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
         <!-- bower:css -->
         <!-- endbower -->
         <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -183,28 +184,33 @@
     									</a>
     								</div>
     							</li>
-                               <div class="popup">
-                                <form method="POST" id="feedback-form" class="feedback-form">
-                                <span class="window-close">X</span>
-                                <label for="name-work" class="add-text">Название проекта</label>
-                                    <input class="input" type="text" id="name-work" name="pro-name"  placeholder="Введите название" x-autocompletetype="pro-name">
-                                    <label for="" class="add-text">Картинка проекта</label>
-                                    
-                                    <label  for="" class ="input file-label" placeholder="Загрузите изображение"> <div id="fileformlabel" class="input-file-name">Загрузите изображение</div>
-                                        <input  class="input-file__element" type="File" name="image"  placeholder="Загрузите изображение" x-autocompletetype="image" onchange="getName(this.value);">
-                                        <div  class="button-file-wrapper"> 
-                                            <div class="button-file"></div></div>
-                                        </label>
+                               
+ <div class="popup">
 
+    <form method="POST" id="feedback-form" class="form">
+        <button type="button" class="b-close"></button>
+        <div class="server-mes error-mes"></div>
+        <div class="server-mes success-mes"></div>
+            
+        <label for="name-work" class="add-text">Название проекта</label>
+            <input class="input" type="text" id="name-work" name="pro-name"  placeholder="Введите название" x-autocompletetype="pro-name" qtip-position="left" qtip-content="Введите название">  
 
-                                        <label for="url" class="add-text">URL проекта</label>
-                                        <input class="input" type="text" id="url" name="url"  placeholder="Добавьте ссылку" x-autocompletetype="url">
-                                        <label for="about-p" class="add-text">Описание</label>
-                                        <textarea class="input big" name="about" id="about-p" rows="5"  placeholder="Пару слов о Вашем проекте"></textarea>
-                                        <input class="sub current" type="submit" value="Добавить">
-                                    </form>
-                                    <div class="shadow"></div>
-                                </div>
+               
+    <label class="add-text" for="project_img">Картинка проекта
+    <input id="fileupload"class="form__input-file" id="project_img" type="file">
+    </label>
+    <input id="filename" class="input form__input" type="text" placeholder="Загрузите изображение" readonly/ qtip-position="left" qtip-content="Изображение">
+    <div class="form__input-file-ico"></div>
+        <label for="url" class="add-text">URL проекта</label>
+            <input class="input" type="text" id="url" name="url"  placeholder="Добавьте ссылку" x-autocompletetype="url"qtip-position="left" qtip-content="Ссылка на проект">
+        
+        <label for="about-p" class="add-text">Описание</label>
+            <textarea class="input big" name="about" id="about-p" rows="5"  placeholder="Пару слов о Вашем проекте"qtip-position="left" qtip-content="Описание проекта"></textarea>
+        
+        <input class="sub current" type="submit" value="Добавить">
+    </form>
+
+</div>
 
 
     						</ul>
@@ -241,6 +247,8 @@
         <script src="bower/bPopup/jquery.bpopup.js"></script>
         <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
         <!-- endbower -->
+        <script src="js/common.js"></script>
+        <script src="js/validation.js"></script>
         <script src="js/main.js"></script>
         <!-- endbuild -->
 
